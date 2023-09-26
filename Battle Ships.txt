@@ -11,7 +11,7 @@ public class BattleShips {
 
 	public static void main(String[] args) {
 	  System.out.println("**** Welcome to Battle Ships game ****");
-        System.out.println("Right now, the sea is empty.");
+          System.out.println("Right now, the sea is empty.");
    
         //Step 1 – Create the ocean map
         createOceanMap();
@@ -108,8 +108,8 @@ public class BattleShips {
 	//Method to start battle
 	public static void Battle() {
 	  playerTurn();
-        computerTurn();
-        printOceanMap();
+          computerTurn();
+          printOceanMap();
 
         System.out.println();
         System.out.println("Your ships: " + BattleShips.playerShips + " | Computer ships: " + BattleShips.computerShips);
